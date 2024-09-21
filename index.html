@@ -1,28 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Code House - Linear Search</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
-
 <body>
-    <div class="app">
-        <h1>JavaScript Quiz</h1>
-        <div class="quiz">
-            <h2 id="question">Question Goes Here</h2>
-            <div id="answer-buttons">
-                <button class="btn">Answer1</button>
-                <button class="btn">Answer2</button>
-                <button class="btn">Answer3</button>
-                <button class="btn">Answer4</button>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="DS Geeks Logo">
+        <!---   <span style="margin-left: 5px; font-size: 1.5em; font-weight: bold;">DS Geeks</span> -->
+        </div>
+        <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li>Aim</li>
+                <li>Overview</li>
+                <li>Animation</li>
+                <li>Analysis</li>
+                <li>Posttest</li>
+            </ul>
+        </aside>
+
+        <!-- Main content area -->
+        <main class="main-content">
+            <h1>Linear Search</h1>
+            <h2>Estimated Time - </h2>
+            <p>1 hour</p>
+            <h2>Learning Objectives of this Experiment - </h2>
+            <p>In this experiment, we will be able to do the following:</p>
+            <ul>
+                <li>Understand the basic concept of the linear search algorithm and how it is used to find an element in an unsorted list.</li>
+                <li>Understanding the principles of linear search as a foundation for algorithms and problem-solving </li>
+                <li>Implement the linear search algorithm in a programming language of choice and test it with different datasets.</li>
+                <li>Analyze the time complexity of the linear search algorithm and compare it with other searching algorithms like binary search.</li>
+            </ul>
+        </main>
+    </div>
+    <div class="bottom-nav">
+        <div class="follow-us">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+                <a href="#"><img src="youtube.png" alt="Youtube"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
             </div>
-            <button id="next-btn">Next</button>
+            <div class="footer-text">
+                <p>DS Geeks is a website to provide the best learning material on technical subjects.</p>
+                <p>&copy; Copyright 2024. All Rights Reserved.</p>
+            </div>
         </div>
     </div>
+    
+    <script src="scripts.js"></script>
 </body>
-
 </html>
