@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#array-container {
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 30px;
+    gap: 15px;
+}
+
+#opn{
+    height: 100%;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bar {
+    width: 45px;
+    margin-bottom: 40px;
+    padding: 13px 3px;
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+    border: 1px solid #000;
+}
+
+.highlight {
+    background-color: orange;
+}
+
+.found {
+    background-color: green;
+}
