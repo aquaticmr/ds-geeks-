@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Searching</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles1.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="WhatsApp Image 2024-08-29 at 6.26.40 PM.jpeg"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="WhatsApp Image 2024-08-29 at 6.26.40 PM.jpeg"
+              alt="DS Geeks Logo"
+            />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-image">
+          <img
+            src="WhatsApp Image 2024-08-29 at 6.28.49 PM.jpeg"
+            alt="Coding Image"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- Main content container -->
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <ul>
+          <li><a href="binarySearch.html">Aim</a></li>
+          <li><a href="bs_overview.html">Overview</a></li>
+          <li><a href="bs_animation.html">Animation</a></li>
+          <li><a href="bs_analysis.html">Analysis</a></li>
+          <li><a href="bs_posttest.html">Posttest</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main content area -->
+      <main class="main-content">
+        <div id="ls-analysis">
+        <video src="./Binary Search.mp4" controls width="900" height="550" style="margin-left: 100px;" poster="./Binary-Search.png"></video>
+        <div id="ls-analysis-content">
+          <h5 style="font-size: 25px;">Time Complexity:</h5>
+            <p style="font-size: 17px;font-weight: 500;">
+            Best Case (O(1)):
+            The best case occurs when the element is found at the middle of the array during the first comparison, requiring only one step.<br><br>
+
+            Worst Case (O(log n)):
+            The worst-case scenario happens when the element is either not in the array or located at the far left or far right end. Each iteration halves the search interval, so after log2(n) iterations, the search interval becomes empty. Thus, the time complexity in the worst case is logarithmic, i.e., O(log n).<br><br>
+
+            Average Case (O(log n)):
+            Similar to the worst case, the average number of steps required to find an element is proportional to the logarithm of the size of the array, making the average case complexity O(log n).<br>
+            </p>   
+          <h5 style="font-size: 25px;">Space Complexity:</h5> 
+          <p style="font-size: 17px;font-weight: 500;">
+            The space complexity of binary search is O(1), as it requires only a few extra variables and does not use additional memory proportional to the input size.
+          </p>
+        </div>
+        </div>
+      </main>
+    </div>
+    <div class="bottom-nav">
+      <div class="follow-us">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><img src="./youtube.png" alt="Youtube" /></a>
+          <a href="#"><img src="./instagram.jpeg" alt="Instagram" /></a>
+          <a href="#"><img src="./facebook.jpg" alt="Facebook" /></a>
+          <a href="#"><img src="./linkedin.jpeg" alt="LinkedIn" /></a>
+        </div>
+        <div class="footer-text">
+          <p>
+            DS Geeks is a website to provide the best learning material on
+            technical subjects.
+          </p>
+          <p>&copy; Copyright 2024. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

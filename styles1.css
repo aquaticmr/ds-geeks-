@@ -1,0 +1,110 @@
+
+
+body {
+  font-family: Montserrat;
+}
+.container {
+  display: flex;
+  padding-left: 20px;
+}
+
+
+.sidebar {
+  width: 180px;
+  font-weight: 700;
+  font-size: 1.4em;
+  background-color: rgb(124, 225, 130);
+  padding: 25px;
+  border-radius: 10px;
+  max-height: 380px;
+}
+
+.sidebar ul {
+  padding: 10px;
+  list-style: square;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  cursor: url("click\ \(3\).png"), auto;
+  font-size: 32px;
+}
+
+.sidebar li ul {
+  padding-left: 20px;
+}
+
+.sidebar li:hover {
+  color: #ff6600;
+}
+
+
+.main-content {
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+.main-content ul {
+  list-style: disc;
+}
+
+.main-content h1 {
+  color: blue;
+}
+
+.main-content h2 {
+  margin-top: 20px;
+  color: black;
+}
+
+.main-content p,
+.main-content ul {
+  margin: 25px 0;
+  font-weight: 700;
+}
+
+.main-content ul {
+  padding-left: 200px;
+}
+
+.main-content ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.bottom-nav {
+  background-color: rgba(24, 0, 27, 255);
+  text-align: center;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #ddd; /* light grey border */
+  margin-top: 20px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.bottom-nav .footer-text {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.bottom-nav div {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.bottom-nav h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+}
+
+.bottom-nav .follow-us .social-links img {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+}

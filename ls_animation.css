@@ -1,0 +1,40 @@
+#array-container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.array-element {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.array-element.searching {
+  background-color: yellow;
+}
+
+.array-element.found {
+  background-color: green;
+  color: white;
+}
+#message {
+  font-size: xx-large;
+}
+label {
+  font-size: larger;
+}
+#search-value {
+  height: 1.8rem;
+}
+button {
+  border-radius: 5px;
+  background-color: aquamarine;
+  height: 1.7rem;
+  font-size: large;
+}
