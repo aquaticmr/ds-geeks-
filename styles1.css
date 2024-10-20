@@ -1,0 +1,81 @@
+body {
+  font-family: Montserrat;
+}
+.container {
+  display: flex;
+  padding-left: 20px;
+}
+
+.sidebar {
+  width: 180px;
+  font-weight: 700;
+  font-size: 1.4em;
+  background-color: rgb(124, 225, 130);
+  padding: 25px;
+  border-radius: 10px;
+  position: fixed;
+  top: 200px;
+
+  cursor: url("click\ \(3\).png"), auto;
+}
+
+.sidebar ul {
+  padding: 10px;
+  list-style: square;
+  cursor: url("click\ \(3\).png"), auto;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  cursor: url("click\ \(3\).png"), auto;
+  font-size: 32px;
+}
+
+.sidebar li ul {
+  padding-left: 20px;
+  cursor: url("click\ \(3\).png"), auto;
+}
+
+.sidebar li:hover {
+  color: #ff6600;
+}
+
+.main-content {
+  padding: 20px;
+  font-size: 1.3em;
+  position: relative;
+  left: 230px;
+}
+
+.main-content ul {
+  list-style: disc;
+}
+
+.main-content h1 {
+  color: blue;
+}
+
+.main-content h2 {
+  margin-top: 20px;
+  color: black;
+}
+
+.main-content p,
+.main-content ul {
+  margin: 25px 0;
+  font-weight: 700;
+}
+
+.main-content ul {
+  padding-left: 200px;
+}
+
+.main-content ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+a {
+  outline: 0;
+  color: black;
+  text-decoration: none;
+}
